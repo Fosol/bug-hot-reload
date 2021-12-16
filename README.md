@@ -20,3 +20,13 @@ docker-compose up -d
 ```
 
 View page [http://localhost:5000](http://localhost:5000).
+
+
+## Fix for local development
+
+If you run the app locally instead of a container you can get it working with the following hack in the `index.tsx` file.
+This hack doesn't solve the container issue.
+
+```tsx
+window.process = {} as any;
+```
