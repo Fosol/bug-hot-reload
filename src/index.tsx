@@ -11,6 +11,9 @@ import App from './App';
 import css from './css/_variables.module.scss';
 import * as serviceWorker from './serviceWorker';
 
+// Add this line to fix the compiler!
+window.process = {} as any;
+
 const Index = () => {
   return (
     <React.StrictMode>

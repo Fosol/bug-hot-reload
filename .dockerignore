@@ -1,11 +1,13 @@
+.vscode/
+.devcontainer/
 .dockerignore
 ./log
 ./tmp
 .git
+.gitignore
 *Dockerfile*
 *docker-compose*
 dist/
 build/
+coverage/
 node_modules/
-.vscode/
-.devcontainer
